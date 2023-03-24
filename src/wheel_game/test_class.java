@@ -6,6 +6,7 @@ public class test_class {
 
         System.out.println("Welcome to Wheel Of Fortune!");
         System.out.println("WE IN THIS BITCCHTTTTTTTHTHTHHTHTHTHT");
+        System.out.println("WORRRKKK WOKRRRR");
 
     }
 }

@@ -9,5 +9,5 @@ public class test_class {
         System.out.println("Welcome to Wheel Of Fortune!");
         System.out.println("<3");
 
-    }
+    }rtc
 }

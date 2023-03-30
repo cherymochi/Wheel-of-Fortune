@@ -1,6 +1,6 @@
 package wheel_game;
 
-// Programmer :
+// Programmer : Kyle Williams
 // Date : Mar 28, 2023
 // Node Class
 

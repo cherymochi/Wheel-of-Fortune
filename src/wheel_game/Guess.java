@@ -1,6 +1,6 @@
 package wheel_game;
 
-// Programmer :
+// Programmer : Nathalea Evans
 // Date : Mar 28, 2023
 // Guess Class
 
@@ -10,6 +10,7 @@ public class Guess {
 
     // Default Constructor
     Guess(){
+
 
     }
 

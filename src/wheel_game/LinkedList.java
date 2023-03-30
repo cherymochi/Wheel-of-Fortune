@@ -1,6 +1,6 @@
 package wheel_game;
 
-// Programmer :
+// Programmer : Lamar Smith
 // Date : Mar 28, 2023
 // Linked List Class
 

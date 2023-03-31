@@ -6,33 +6,93 @@ package wheel_game;
 
 public class Contestant {
     // Attributes
-    int player_num;
-    int grand_total = 0;
-    String player_name;
+    private String player_name;
+    private int player_num;
+    private float grand_total;
+    private float round_total;
+
+    int wins;
 
 
     // Default Constructor
-    Contestant(){
-        player_num = 0;
-        grand_total = 0;
-        player_name = "NULL";
+    public Contestant(){
+        this.player_num = 0;
+        this.grand_total = (float) 0.0;
+        this.round_total = (float) 0.0;
+        this.player_name = "";
 
     }
 
     // Primary Constructor
-    Contestant(int p_num, int g_total, String name){
-        player_num = p_num;
-        grand_total = g_total;
-        player_name = name;
+    public Contestant(int p_num, int g_total, int r_total, String name){
+        this.player_num = p_num;
+        this.grand_total = g_total;
+        this.round_total = r_total;
+        this.player_name = name;
+    }
+
+    // Copy Constructor
+    public Contestant(Contestant con){
+        this.player_num = con.player_num;
+        this.grand_total = con.grand_total;
+        this.round_total = con.round_total;
+        this.player_name = con.player_name;
     }
 
     // Getters
+    public String getPlayerName(){
+        return player_name;
+    }
+    public int getPlayerNum(){
+        return player_num;
+    }
+
+    public float getGrandTotal(){
+        return grand_total;
+    }
+
+    public float getRoundTotal(){
+        return round_total;
+    }
+
+    public int getWins(){
+        return  wins;
+    }
 
 
     // Setters
+    public void setPlayerName(String player_name) {
+        this.player_name = player_name;
+    }
 
+    public void setPlayerNum(int player_num) {
+        this.player_num = player_num;
+    }
+
+    public void setGrandTotal(float grand_total) {
+        this.grand_total = grand_total;
+    }
+
+    public void setRound_total(float round_total) {
+        this.round_total = round_total;
+    }
+
+    public void setWins(int wins) {
+        this.wins = wins;
+    }
 
     // Other Methods
+    @Override
+    public String toString() { // Converts to string
+        return "Contestant{" +
+                "player_name='" + player_name + '\'' +
+                ", player_num=" + player_num +
+                ", grand_total=" + grand_total +
+                ", round_total=" + round_total +
+                '}';
+    }
 
-
+    public void Display(){ // Display attributes
+        System.out.println("\n\t\t\t" + toString());
+    }
 }

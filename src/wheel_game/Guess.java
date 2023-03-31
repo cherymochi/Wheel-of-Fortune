@@ -6,7 +6,7 @@ package wheel_game;
 
 public class Guess {
     // Attributes
-    int a;
+    String guess;
 
     // Default Constructor
     Guess(){

@@ -9,8 +9,21 @@ package wheel_game;
 // Due Date : Apr 14, 2023
 // Project : Data Structure Group Project - Wheel of Fortune
 
-public class Driver {
-    public static void main(){
+// Imports
+import java.util.Scanner;
+import java.io.IOException;
 
+public class Driver { // Start Program Execution
+    public static void main(String[] args){
+
+        int choice;
+        boolean exit_game = false;
+
+        Manager game = new Manager(); // Create an instance of the game
+
+        while(!exit_game){
+
+
+        }
     }
 }

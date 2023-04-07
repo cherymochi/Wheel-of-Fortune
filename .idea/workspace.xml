@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5663c635-56d5-4b77-a56f-5dd899fff574" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wheel_game/WheelCircularNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679621799613</updated>
-      <workItem from="1680644576687" duration="6267000" />
+      <workItem from="1680644576687" duration="6933000" />
     </task>
     <task id="LOCAL-00001" summary="Finished the node class">
       <created>1680907730032</created>
@@ -75,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680907730032</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished the card class, read for use in the circular node class">
+      <created>1680908700088</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680908700088</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished the node class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished the node class" />
+    <MESSAGE value="Finished the card class, read for use in the circular node class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished the card class, read for use in the circular node class" />
   </component>
 </project>

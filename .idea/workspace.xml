@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5663c635-56d5-4b77-a56f-5dd899fff574" name="Changes" comment="Finished the node class">
-      <changelist_data name="Kyle Williams" email="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5663c635-56d5-4b77-a56f-5dd899fff574" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/Contestant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Contestant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Card.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +23,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Kyle Williams &lt;jigwillams8@gmail.com&gt;" />
+        <option value="jigwilliams8@gmail.com" />
         <option value="Kyle Williams" />
       </list>
     </option>
@@ -67,8 +66,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679621799613</updated>
-      <workItem from="1680644576687" duration="5424000" />
+      <workItem from="1680644576687" duration="6267000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished the node class">
+      <created>1680907730032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680907730032</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

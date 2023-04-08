@@ -22,7 +22,9 @@ public class Driver { // Start Program Execution
         Manager game = new Manager(); // Create an instance of the game
 
         while(!exit_game){
+            game.mainMenu();
 
+            exit_game = true;
 
         }
     }

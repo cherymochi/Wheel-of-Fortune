@@ -10,10 +10,8 @@ package wheel_game;
 // Project : Data Structure Group Project - Wheel of Fortune
 
 // Imports
-import java.util.Scanner;
-import java.io.IOException;
 
-public class Driver { // Start Program Execution
+public class GameplayDriver { // Start Program Execution
     public static void main(String[] args){
 
         int choice;

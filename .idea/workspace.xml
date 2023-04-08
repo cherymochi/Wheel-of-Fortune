@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5663c635-56d5-4b77-a56f-5dd899fff574" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/wheel_game/WheelCircularNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wheel_game/Wheel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Contestant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Contestant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/ContestantCircularNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/GameplayDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Round.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679621799613</updated>
-      <workItem from="1680644576687" duration="6933000" />
+      <workItem from="1680644576687" duration="24382000" />
     </task>
     <task id="LOCAL-00001" summary="Finished the node class">
       <created>1680907730032</created>
@@ -81,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680908700088</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished the card class, read for use in the circular node class">
+      <created>1680909283185</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680909283185</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

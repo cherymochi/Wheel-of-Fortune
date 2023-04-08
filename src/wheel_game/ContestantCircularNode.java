@@ -37,6 +37,11 @@ public class ContestantCircularNode {
     // Setters
     public void setContestantInfo(Contestant contestantInfo) {
         this.contestantInfo = contestantInfo;
+
+    }
+
+    public void setGrandTotal(float grandTotal){
+        this.contestantInfo.setGrandTotal(grandTotal);
     }
 
     public void setNextNode(ContestantCircularNode nextNode) {

@@ -11,7 +11,6 @@ public class Contestant {
     private String playerName;
     private float grandTotal;
 
-
     // Default Constructor
     public Contestant(){
         this.player_num = 0;
@@ -73,6 +72,10 @@ public class Contestant {
         System.out.println("\n\t\t\t" + toString());
     }
 
-    // Solution Methods
+    // Solution Methods to Project
+    public void addContestantToCircularList(int playerNumber, String playerName, float grandTotal){
+        ContestantCircularNode newNode = new ContestantCircularNode();
+
+    }
 
 }

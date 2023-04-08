@@ -60,56 +60,62 @@ public class ContestantCircularList {
             do{
                 System.out.println("Player " + player + " Spin the wheel? type yes or no");
                 read.next();
+                boolean nextPlayer = false;
                 if (read.hasNext("yes")){
                     wheel.spinWheel();
                     if (wheel.landsOn() == "Bankrupt"){
                         round.roundTotal = 0;
-                    } else if()
+                    } else if(wheel.landsOn() == "Loose A Turn") {
+                        current.setGrandTotal(round.roundTotal);
+                        nextPlayer = true;
+                    }
                     read.reset();
                 }
 
-                System.out.println("Have a letter in mind? If yes then type the guess if not the type and enter no.");
-                String value = read.next();
+                if (nextPlayer == false) {  // loose a turn skip to the other player
+                    System.out.println("Have a letter in mind? If yes then type the guess if not the type and enter no.");
+                    String value = read.next();
 
-                if (read.hasNext("no") || read.hasNext("No")){
-                    read.reset();
-                } else{
-                    round.tryToGuess(value);
-                    System.out.println("You still have your turn, you can (1) choose to spin again, (2) buy a vowel, or " +
-                            "(3) solve the puzzle. \nPlease type and enter the number corresponding to what you choose.");
-                    read.nextInt();
+                    if (read.hasNext("no") || read.hasNext("No")) {
+                        read.reset();
+                    } else {
+                        round.tryToGuess(value);
+                        System.out.println("You still have your turn, you can (1) choose to spin again, (2) buy a vowel, or " +
+                                "(3) solve the puzzle. \nPlease type and enter the number corresponding to what you choose.");
+                        read.nextInt();
 
-                    // gameplay for spin again
-                    if (read.hasNextInt(1)){
-                        wheel.spinWheel();
-                        // skip to next player
-                        current = current.getNextNode();
-                    }
-
-                    // gameplay for buy a vowel
-                    else if (read.hasNextInt(2)){
-                        System.out.println("What vowel do you choose?");
-                        if (round.buyVowel((char) read.nextByte()) == false){
-                            System.out.println("That was an incorrect guess, next player.");
+                        // gameplay for spin again
+                        if (read.hasNextInt(1)) {
+                            wheel.spinWheel();
                             // skip to next player
                             current = current.getNextNode();
                         }
-                    }
 
-                    // gameplay for solve the puzzle
-                    else if (read.hasNextInt(3)) {
-                        System.out.println("Type and enter the puzzle answer.");
-                        if (round.solvePuzzle(read.next()) == false) {
-                            System.out.println("That was an incorrect guess, next player.");
-                            // skip to next player
-                            current = current.getNextNode();
-                        } else {
-                            // keep money for that round
-                            current.setGrandTotal(round.roundTotal);
+                        // gameplay for buy a vowel
+                        else if (read.hasNextInt(2)) {
+                            System.out.println("What vowel do you choose?");
+                            if (round.buyVowel((char) read.nextByte()) == false) {
+                                System.out.println("That was an incorrect guess, next player.");
+                                // skip to next player
+                                current = current.getNextNode();
+                            }
+                        }
+
+                        // gameplay for solve the puzzle
+                        else if (read.hasNextInt(3)) {
+                            System.out.println("Type and enter the puzzle answer.");
+                            if (round.solvePuzzle(read.next()) == false) {
+                                System.out.println("That was an incorrect guess, next player.");
+                                // skip to next player
+                                current = current.getNextNode();
+                            } else {
+                                // keep money for that round
+                                current.setGrandTotal(round.roundTotal);
+                            }
                         }
                     }
                 }
-            } while (current != head); // list traversal
+            } while (current != head); // list traversal only once
 
         } catch(Exception general){
             System.err.println("Something went wrong");

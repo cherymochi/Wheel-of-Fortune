@@ -95,4 +95,7 @@ public class Contestant {
     public void Display(){ // Display attributes
         System.out.println("\n\t\t\t" + toString());
     }
+
+    public void setRoundTotal(int i) {
+    }
 }

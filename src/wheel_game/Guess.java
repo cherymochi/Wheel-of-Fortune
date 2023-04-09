@@ -1,29 +1,49 @@
 package wheel_game;
 
-// Programmer : Nathalea Evans
+// Programmer : Kyle Williams
 // Date : Mar 28, 2023
-// Guess Class
+// Node Class
+
 
 public class Guess {
-    // Attributes
-    String guess;
 
-    // Default Constructor
-    Guess(){
+    private String answer;
 
 
+    //default constructor
+    public Guess()
+    {
+        answer = " ";
     }
 
-    // Primary Constructor
-    Guess(int a){
-
+    //primary constructor
+    public Guess(String answer)
+    {
+        this.answer = answer;
     }
 
-    // Getters
+    //copy constructor
+    public Guess(Guess gs)
+    {
+        this.answer = gs.answer;
+    }
 
 
-    // Setters
+
+    //getters and setters
+    public String getAnswer() {
+        return answer;
+    }
+
+    public void setAnswer(String answer) {
+        this.answer = answer;
+    }
+
+    public void display()
+    {
+        System.out.println(answer);
+    }
 
 
-    // Other Methods
+
 }

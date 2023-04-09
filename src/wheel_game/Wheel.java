@@ -48,6 +48,8 @@ public class Wheel {
     }
     public String landsOn(){    //Returns what the spin wheel function lands on
 
+        String placeHolder = "";
+        return placeHolder;
     }
     public void loseMoneyForRound(){
 

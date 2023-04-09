@@ -31,13 +31,16 @@ public class Round {
     // Solution Methods
     public boolean solvePuzzle(String answer){
 
+        return true;
     }
 
     public boolean tryToGuess(String guess){
 
+        return true;
     }
 
     public boolean buyVowel(char vowel){
 
+        return true;
     }
 }

@@ -64,7 +64,7 @@ public class ContestantCircularList {
                 read.next();
                 if (read.hasNext("yes")){
                     wheel.spinWheel();
-                    wheel.actionAfterLandsOn(round, current);
+                    wheel.actionAfterLandsOn(current);
                     if(wheel.landsOn().getCardInfo().getType() == "Loose A Turn") {
                         current.setRoundTotal(0);
                         player++;
@@ -90,7 +90,7 @@ public class ContestantCircularList {
                             // gameplay for spin again
                             if (intFromScanner == 1) {
                                 wheel.spinWheel();
-                                wheel.actionAfterLandsOn(round, current);
+                                wheel.actionAfterLandsOn(current);
                             }
 
                             // gameplay for buy a vowel

@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5663c635-56d5-4b77-a56f-5dd899fff574" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/Contestant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Contestant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/ContestantCircularNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Round.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wheel_game/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Wheel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +70,7 @@
       <updated>1679621799613</updated>
       <workItem from="1680644576687" duration="25088000" />
       <workItem from="1680987484953" duration="1067000" />
-      <workItem from="1681078261340" duration="10067000" />
+      <workItem from="1681078261340" duration="11956000" />
     </task>
     <task id="LOCAL-00001" summary="Finished the node class">
       <created>1680907730032</created>
@@ -118,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681078423832</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Some touches. Wheel class is finished, as wheel as the wheelCircularNode.">
+      <created>1681149817419</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681149817419</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +142,7 @@
     <MESSAGE value="Finished the node class" />
     <MESSAGE value="Finished the card class, read for use in the circular node class" />
     <MESSAGE value="Major changes, check the classes that youre doing and the associated class. As well as the ContestantCircularList class, the takeTurn method in it has gameplay aspects implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Major changes, check the classes that youre doing and the associated class. As well as the ContestantCircularList class, the takeTurn method in it has gameplay aspects implemented." />
+    <MESSAGE value="Some touches. Wheel class is finished, as wheel as the wheelCircularNode." />
+    <option name="LAST_COMMIT_MESSAGE" value="Some touches. Wheel class is finished, as wheel as the wheelCircularNode." />
   </component>
 </project>

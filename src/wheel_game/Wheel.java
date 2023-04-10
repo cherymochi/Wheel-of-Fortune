@@ -68,8 +68,9 @@ public class Wheel {
         card = new Card("Loose A Turn", 0);
         addCardToList(card);
         card = new Card("Money", 600);
+        // add all cards
     }
-    public void actionAfterLandsOn(Round round, ContestantCircularNode node){
+    public void actionAfterLandsOn(ContestantCircularNode node){
         WheelCircularNode wheelPositionData = landsOn();
         wheelPositionData.getCardInfo().display();
         if (landsOn().getCardInfo().getType() == "Bankrupt"){
@@ -77,9 +78,6 @@ public class Wheel {
         } else if (wheelPositionData.getCardInfo().getType() == "Money"){
             node.setRoundTotal(wheelPositionData.getCardInfo().getValue());
         }
-    }
-    public void loseMoneyForRound(){
-
     }
 
 }

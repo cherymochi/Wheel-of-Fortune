@@ -40,6 +40,9 @@ public class ContestantCircularNode {
 
     }
 
+    public void setRoundTotal(float roundTotal){
+        this.contestantInfo.setRoundTotal(roundTotal);
+    }
     public void setGrandTotal(float grandTotal){
         this.contestantInfo.setGrandTotal(grandTotal);
     }

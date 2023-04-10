@@ -7,30 +7,34 @@ package wheel_game;
 
 public class Contestant {
     // Attributes
-    private int player_num;
+    private int playerNumber;
     private String playerName;
+    private float roundTotal;
     private float grandTotal;
 
     // Default Constructor
     public Contestant(){
-        this.player_num = 0;
+        this.playerNumber = 0;
+        roundTotal = 0;
         this.grandTotal = (float) 0.0;
         this.playerName = "";
 
     }
 
     // Primary Constructor
-    public Contestant(int p_num, int g_total, String name){
-        this.player_num = p_num;
+    public Contestant(int p_num, int g_total, String name, float roundTotal){
+        this.playerNumber = p_num;
         this.grandTotal = g_total;
         this.playerName = name;
+        this.roundTotal = roundTotal;
     }
 
     // Copy Constructor
     public Contestant(Contestant con){
-        this.player_num = con.player_num;
+        this.playerNumber = con.playerNumber;
         this.grandTotal = con.grandTotal;
         this.playerName = con.playerName;
+        this.roundTotal = con.roundTotal;
     }
 
     // Getters
@@ -38,11 +42,15 @@ public class Contestant {
         return playerName;
     }
     public int getPlayerNum(){
-        return player_num;
+        return playerNumber;
     }
 
     public float getGrandTotal(){
         return grandTotal;
+    }
+
+    public float getRoundTotal() {
+        return roundTotal;
     }
 
     // Setters
@@ -51,11 +59,15 @@ public class Contestant {
     }
 
     public void setPlayerNum(int player_num) {
-        this.player_num = player_num;
+        this.playerNumber = playerNumber;
     }
 
     public void setGrandTotal(float grand_total) {
         this.grandTotal = grand_total;
+    }
+
+    public void setRoundTotal(float roundTotal) {
+        this.roundTotal = roundTotal;
     }
 
     // Other Methods
@@ -63,19 +75,13 @@ public class Contestant {
     public String toString() { // Converts to string
         return "Contestant{" +
                 "player_name='" + playerName + '\'' +
-                ", player_num=" + player_num +
+                ", player_num=" + playerNumber +
                 ", grand_total=" + grandTotal +
                 '}';
     }
 
     public void Display(){ // Display attributes
         System.out.println("\n\t\t\t" + toString());
-    }
-
-    // Solution Methods to Project
-    public void addContestantToCircularList(int playerNumber, String playerName, float grandTotal){
-        ContestantCircularNode newNode = new ContestantCircularNode();
-
     }
 
 }

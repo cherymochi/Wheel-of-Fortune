@@ -51,7 +51,7 @@ public class Card {
 
     // Other Methods
     public void display(){
-        System.out.println("Type: " + type + "\nValue: " + value);
+        System.out.println("You landed on: " + type + "\nValued at: $" + value);
     }
 
 }

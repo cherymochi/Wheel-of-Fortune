@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5663c635-56d5-4b77-a56f-5dd899fff574" name="Changes" comment="" />
+    <list default="true" id="5663c635-56d5-4b77-a56f-5dd899fff574" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Contestant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Contestant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/ContestantCircularNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Round.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Wheel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,18 +51,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/jigwi/CLionProjects/C",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,6 +74,7 @@
       <updated>1679621799613</updated>
       <workItem from="1680644576687" duration="25088000" />
       <workItem from="1680987484953" duration="1067000" />
+      <workItem from="1681078261340" duration="10067000" />
     </task>
     <task id="LOCAL-00001" summary="Finished the node class">
       <created>1680907730032</created>
@@ -101,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680993322430</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Major changes, check the classes that youre doing and the associated class. As well as the ContestantCircularList class, the takeTurn method in it has gameplay aspects implemented.">
+      <created>1681078423832</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681078423832</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

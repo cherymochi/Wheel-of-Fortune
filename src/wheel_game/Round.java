@@ -6,7 +6,6 @@ package wheel_game;
 
 public class Round {
     // Attributes
-    float roundTotal;
 
     // Default Constructor
     Round(){
@@ -19,10 +18,6 @@ public class Round {
     }
 
     // Getters
-
-    public float getRoundTotal() {
-        return roundTotal;
-    }
 
 
     // Setters

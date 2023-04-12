@@ -1,98 +1,87 @@
 package wheel_game;
 
 // Programmer : Kyle Williams
+// Editor: Nathalea Evans
 // Date : Mar 28, 2023
 // Contestant Class
 
 public class Contestant {
     // Attributes
-    private String player_name;
-    private int player_num;
-    private float grand_total;
-    private float round_total;
-
-    int wins;
-
+    private int playerNumber;
+    private String playerName;
+    private float roundTotal;
+    private float grandTotal;
 
     // Default Constructor
     public Contestant(){
-        this.player_num = 0;
-        this.grand_total = (float) 0.0;
-        this.round_total = (float) 0.0;
-        this.player_name = "";
+        this.playerNumber = 0;
+        roundTotal = 0;
+        this.grandTotal = (float) 0.0;
+        this.playerName = "";
 
     }
 
     // Primary Constructor
-    public Contestant(int p_num, int g_total, int r_total, String name){
-        this.player_num = p_num;
-        this.grand_total = g_total;
-        this.round_total = r_total;
-        this.player_name = name;
+    public Contestant(int p_num, int g_total, String name, float roundTotal){
+        this.playerNumber = p_num;
+        this.grandTotal = g_total;
+        this.playerName = name;
+        this.roundTotal = roundTotal;
     }
 
     // Copy Constructor
     public Contestant(Contestant con){
-        this.player_num = con.player_num;
-        this.grand_total = con.grand_total;
-        this.round_total = con.round_total;
-        this.player_name = con.player_name;
+        this.playerNumber = con.playerNumber;
+        this.grandTotal = con.grandTotal;
+        this.playerName = con.playerName;
+        this.roundTotal = con.roundTotal;
     }
 
     // Getters
     public String getPlayerName(){
-        return player_name;
+        return playerName;
     }
     public int getPlayerNum(){
-        return player_num;
+        return playerNumber;
     }
 
     public float getGrandTotal(){
-        return grand_total;
+        return grandTotal;
     }
 
-    public float getRoundTotal(){
-        return round_total;
+    public float getRoundTotal() {
+        return roundTotal;
     }
-
-    public int getWins(){
-        return  wins;
-    }
-
 
     // Setters
     public void setPlayerName(String player_name) {
-        this.player_name = player_name;
+        this.playerName = player_name;
     }
 
     public void setPlayerNum(int player_num) {
-        this.player_num = player_num;
+        this.playerNumber = playerNumber;
     }
 
     public void setGrandTotal(float grand_total) {
-        this.grand_total = grand_total;
+        this.grandTotal = grand_total;
     }
 
-    public void setRound_total(float round_total) {
-        this.round_total = round_total;
-    }
-
-    public void setWins(int wins) {
-        this.wins = wins;
+    public void setRoundTotal(float roundTotal) {
+        this.roundTotal = roundTotal;
     }
 
     // Other Methods
     @Override
     public String toString() { // Converts to string
         return "Contestant{" +
-                "player_name='" + player_name + '\'' +
-                ", player_num=" + player_num +
-                ", grand_total=" + grand_total +
-                ", round_total=" + round_total +
+                "player_name='" + playerName + '\'' +
+                ", player_num=" + playerNumber +
+                ", grand_total=" + grandTotal +
                 '}';
     }
 
     public void Display(){ // Display attributes
         System.out.println("\n\t\t\t" + toString());
     }
+
 }

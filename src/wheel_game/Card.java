@@ -7,25 +7,51 @@ package wheel_game;
 
 public class Card {
     // Attributes
-    int a;
+    private String type;
+    private float value;
 
     // Default Constructor
-    Card(){
-
+    public Card(){
+        type = "";
+        value = 0;
     }
 
     // Primary Constructor
-    Card(int a){
-
+    public Card(String type, float value) {
+        this.type = type;
+        this.value = value;
     }
 
+    //Copy Constructor
+    public Card(Card card){
+        this.type = card.type;
+        this.value = card.value;
+    }
+
+
     // Getters
+    public String getType() {
+        return type;
+    }
+
+    public float getValue() {
+        return value;
+    }
 
 
     // Setters
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public void setValue(float value) {
+        this.value = value;
+    }
 
 
     // Other Methods
-
+    public void display(){
+        System.out.println("You landed on: " + type + "\nValued at: $" + value);
+    }
 
 }
